@@ -1,6 +1,6 @@
 # portofolio_ahmadghani
 
-A new Flutter project.
+This is my flutter project that builded for upgrade my skill to be programmer with making potofolio using this flutter
 
 ## Getting Started
 
