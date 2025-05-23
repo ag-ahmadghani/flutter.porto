@@ -16,45 +16,33 @@ class HalamanSkill extends StatelessWidget {
           Padding(padding: EdgeInsets.all(20.0)),
           Skills(
             image:
-                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZR9npLfmApWYC0keCwuwCDzeini7NocCW8w&s",
-            title: "Java Script",
-            body: "lorem ipsum",
+                "tailwindcss",
+            title: "Tailwindcss",
+            body: "Few times i used tailwindcss for doing my simple project, i think im already in intermidiate level of tailwindcss. For other information you can check my github in github.com/ag-ahmadghani",
           ),
           Skills(
             image:
-                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZR9npLfmApWYC0keCwuwCDzeini7NocCW8w&s",
-            title: "Java Script",
-            body: "lorem ipsum",
+                "pngegg",
+            title: "Laravel",
+            body: "Im also use laravel for doing my project, u can check my project that named kontrakanku in github. For other information you can check my github in github.com/ag-ahmadghani",
           ),
           Skills(
             image:
-                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZR9npLfmApWYC0keCwuwCDzeini7NocCW8w&s",
+                "js",
             title: "Java Script",
-            body: "lorem ipsum",
+            body: "I think for the javascript. im still at basic level for the other framework",
           ),
           Skills(
             image:
-                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZR9npLfmApWYC0keCwuwCDzeini7NocCW8w&s",
-            title: "Java Script",
-            body: "lorem ipsum",
+                "flutter",
+            title: "Flutter",
+            body: "Flutter is also new skill that i learned, this portofolio is my first simple project that used laravel",
           ),
           Skills(
             image:
-                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZR9npLfmApWYC0keCwuwCDzeini7NocCW8w&s",
-            title: "Java Script",
-            body: "lorem ipsum",
-          ),
-          Skills(
-            image:
-                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZR9npLfmApWYC0keCwuwCDzeini7NocCW8w&s",
-            title: "Java Script",
-            body: "lorem ipsum",
-          ),
-          Skills(
-            image:
-                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZR9npLfmApWYC0keCwuwCDzeini7NocCW8w&s",
-            title: "Java Script",
-            body: "lorem ipsum",
+                "figma",
+            title: "Figma",
+            body: "Figma also in basic level.",
           ),
         ],
       ),
@@ -97,8 +85,7 @@ class Skills extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Center(
-            child: Image(
-            image: NetworkImage(image), width: 100.0,
+            child: Image.asset("images/$image.png", width: 150.0,
           ),
           ),
 

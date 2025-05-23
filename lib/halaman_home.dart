@@ -45,9 +45,27 @@ class HalamanHome extends StatelessWidget {
                         "A little bit about Me",
                         style: TextStyle(fontSize: 25.0),
                       ),
+
+                      SizedBox(height: 20.0),
+
                       Text(
-                        "assssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
-                      )
+                        "Hi! My name is Ahmad Ghani, and I’m passionate about learning and growing every day. I'm currently a student majoring in Programming. I enjoy exploring new technologies, solving problems, and creating things that make life easier or more fun.",
+                        textAlign: TextAlign.justify,
+                      ),
+
+                      SizedBox(height: 10.0),
+
+                      Text(
+                        "In my free time, I like reading, coding, playing football, and spending time with friends and family.",
+                        textAlign: TextAlign.justify,
+                      ),
+
+                      SizedBox(height: 10.0),
+
+                      Text(
+                        "I’m always open to new opportunities and connections, so feel free to reach out!",
+                        textAlign: TextAlign.justify,
+                      ),
                     ],
                   ),
                 )
