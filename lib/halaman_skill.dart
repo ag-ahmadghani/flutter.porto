@@ -44,6 +44,12 @@ class HalamanSkill extends StatelessWidget {
             title: "Figma",
             body: "Figma also in basic level.",
           ),
+          Skills(
+            image:
+                "figma",
+            title: "Figma",
+            body: "Figma also in basic level.",
+          ),
         ],
       ),
     );
