@@ -38,18 +38,6 @@ class HalamanSkill extends StatelessWidget {
             title: "Flutter",
             body: "Flutter is also new skill that i learned, this portofolio is my first simple project that used laravel",
           ),
-          Skills(
-            image:
-                "figma",
-            title: "Figma",
-            body: "Figma also in basic level.",
-          ),
-          Skills(
-            image:
-                "figma",
-            title: "Figma",
-            body: "Figma also in basic level.",
-          ),
         ],
       ),
     );
